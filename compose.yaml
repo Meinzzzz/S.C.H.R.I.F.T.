@@ -1,0 +1,8 @@
+services:
+  app:
+    build: .
+    ports:
+      - "5173:5173" 
+    env_file: "docker.env"
+    environment:
+      API_KEY: ${GEMINI}

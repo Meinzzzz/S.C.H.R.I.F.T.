@@ -35,3 +35,4 @@ server_subjects.json
 coverage/
 junit.xml
 S.C.H.R.I.F.T..code-workspace
+docker.env
